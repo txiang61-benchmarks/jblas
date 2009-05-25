@@ -1,6 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -9,14 +8,14 @@
   
   <style type="text/css">
     body {
-    margin-top: 1.0em;
-    background-color: #ffffff;
-    font-family: "helvetica"; 
-    color: #000000;
+      margin-top: 1.0em;
+      background-color: #ffffff;
+      font-family: "helvetica"; 
+      color: #000000;
     }
     #container {
-    margin: 0 auto;
-    width: 700px;
+      margin: 0 auto;
+      width: 700px;
     }
     h1 { font-size: 3.8em; color: #000000; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
@@ -24,34 +23,42 @@
     h2 { font-size: 1.5em; color: #000000; }
     h3 { text-align: center; color: #000000; }
     a { color: #000000; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic;
-    }
-    img.logo { vertical-align: top; border: 0 }
+      .description { 
+      font-size: 1.2em; 
+      margin-bottom: 30px; 
+      margin-top: 30px; 
+      font-style: italic;
+      }
+      .download { float: right; }
+      pre { background: #000; color: #fff; padding: 15px;}
+      hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+      .footer { 
+      text-align:center; 
+      padding-top:30px; 
+      font-style: italic;
+      }
+      img.logo { vertical-align: top; border: 0 }
   </style>  
 </head>
-
-<body>
-  <a href="http://github.com/mikiobraun/jblas"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
   
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/mikiobraun/jblas/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/mikiobraun/jblas/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-      
-    <h1><a href="http://github.com/mikiobraun/jblas"><img class="logo" src="jblas-logo.png" alt="jblas"></a> 
-      <span class="small">by <a href="http://github.com/mikiobraun">mikiobraun</a></span></h1>
-
-    <div class="description">
-      Linear Algebra for Java
-    </div>
+<body>
+<a href="http://github.com/mikiobraun/jblas"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    
+<div id="container">
+   <div class="download">
+     <a href="http://github.com/mikiobraun/jblas/zipball/master">
+       <img border="0" width="90"
+	    src="http://github.com/images/modules/download/zip.png">
+     </a>
+     <a href="http://github.com/mikiobraun/jblas/tarball/master">
+       <img border="0" width="90"
+       src="http://github.com/images/modules/download/tar.png"></a>
+   </div>
+	  
+   <h1><a href="http://github.com/mikiobraun/jblas"><img class="logo" src="jblas-logo.png" alt="jblas"></a> 
+	      <span class="small">by <a href="http://github.com/mikiobraun">mikiobraun</a></span></h1>
+	    
+    <div class="description">Linear Algebra for Java</div>
 
     <p>jblas is a fast linear algebra library for Java. jblas is based
     on BLAS and LAPACK, the de-facto industry standard for matrix
@@ -59,60 +66,69 @@
     for all its computational routines, making jBLAS very fast.</p>
 
     <p>jblas can is essentially a light-wight wrapper around the BLAS
-and LAPACK routines. These packages have originated in the Fortran
-community which explains their archaic API. On the other hand modern
-implementations are hard to beat performance wise. jblas aims to make
-this functionality available to Java programmers such that they do not
-have to worry about writing JNI interfaces and calling conventions of
-Fortran code. </p>
+    and LAPACK routines. These packages have originated in the Fortran
+    community which explains their often archaic API. On the other hand
+    modern implementations are hard to beat performance wise. jblas
+    aims to make this functionality available to Java programmers such
+    that they do not have to worry about writing JNI interfaces and
+    calling conventions of Fortran code. </p>
 
-<h2>Dependencies</h2>
-<p>Depends on ATLAS
-  (<a href="http://math-atlas.sourceforge.net/">http://math-atlas.sourceforge.net/</a>)
-  and
-  BLAS/LAPACK (<a href="http://www.netlib.org/lapack">http://www.netlib.org/lapack</a>)</p>
-<h2>Install</h2>
-<p>There exist jar-files with prebuild native
-  libraries for a number of platforms. See
-  the <a href="http://github.com/mikiobraun/jblas/downloads">download
-  page</a>. For instructions on compiling everything yourself, see
-<a href="http://github.com/mikiobraun/jblas/blob/e1de8249b28137fa94a79558ee90ff037fd7c47d/INSTALL">INSTALL</a></p>
-<h2>Documentation</h2>
-Have a look at the <a href="javadoc/index.html">API Documentation</a>.
-<h2>License</h2>
-<p>BSD Revised (see 
-<a href="http://github.com/mikiobraun/jblas/blob/e1de8249b28137fa94a79558ee90ff037fd7c47d/COPYING">COPYING</a>)</p>
-<h2>Authors</h2>
-<p>Mikio L. Braun, Johannes Schaback, Matthias L. Jugel<br/> </p>
-<h2>Contact</h2>
-<p>Mikio L. Braun (mikio@cs.tu-berlin.de)<br/>      </p>
+    <p>jblas depends on an implementation of the LAPACK and BLAS
+    routines. Currently it is tested with ATLAS
+    (<a href="http://math-atlas.sourceforge.net/">http://math-atlas.sourceforge.net/</a>)
+    and BLAS/LAPACK
+    (<a href="http://www.netlib.org/lapack">http://www.netlib.org/lapack</a>)</p>
 
+    <h2>Getting Started</h2>
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/mikiobraun/jblas/zipball/master">zip</a> or
-      <a href="http://github.com/mikiobraun/jblas/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/mikiobraun/jblas</pre>
-    </p>
+    <p>There exist jar-files with prebuild native libraries for a
+    number of platforms. See
+    the <a href="http://github.com/mikiobraun/jblas/downloads">download
+    page</a>. For instructions on compiling everything yourself, see
+    <a href="http://github.com/mikiobraun/jblas/blob/e1de8249b28137fa94a79558ee90ff037fd7c47d/INSTALL">INSTALL</a></p>
+
+    <h2>Documentation</h2>
+    <p>A good starting point are the <a href="javadoc/index.html">API
+    Documentations</a>.</p>
+
+    <p>If you have more questions, go to
+    the <a href="http://groups.google.com/group/jblas-users">jblas-users
+    mailing list </A>.</p>
+
+    <h2>License</h2>
+    <p>BSD Revised (see 
+	<a href="http://github.com/mikiobraun/jblas/blob/e1de8249b28137fa94a79558ee90ff037fd7c47d/COPYING">COPYING</a>)</p>
       
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/mikiobraun/jblas">mikiobraun/jblas</a>
-    </div>
-    
-  </div>
 
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-8750120-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
-</html>
+    <h2>Authors</h2>
+    <p><a href="http://mikiobraun.de">Mikio L. Braun</a>, Johannes Schaback, Matthias L. Jugel<br/> </p>
+
+    <h2>Downloading the Sources</h2>
+     <p>
+	You can download this project in either
+	<a href="http://github.com/mikiobraun/jblas/zipball/master">zip</a> or
+	<a href="http://github.com/mikiobraun/jblas/tarball/master">tar</a> formats.
+      </p>
+      <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+	by running:
+      <pre>$ git clone git://github.com/mikiobraun/jblas</pre>
+      </p>
+      
+      <div class="footer">
+	get the source code on GitHub : <a href="http://github.com/mikiobraun/jblas">mikiobraun/jblas</a>
+      </div>
+      
+   </div>
+    
+   <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+     var pageTracker = _gat._getTracker("UA-8750120-1");
+     pageTracker._trackPageview();
+     } catch(err) {}</script>
+     </body>
+ </html>
+    
