@@ -58,7 +58,8 @@
    <h1><a href="http://github.com/mikiobraun/jblas"><img class="logo" src="jblas-logo.png" alt="jblas"></a> 
 	      <span class="small">by <a href="http://github.com/mikiobraun">mikiobraun</a></span></h1>
 	    
-    <div class="description">Linear Algebra for Java</div>
+    <div class="description">Linear Algebra for Java (Current
+    Version: V1.0)</div>
 
     <p>jblas is a fast linear algebra library for Java. jblas is based
     on BLAS and LAPACK, the de-facto industry standard for matrix
@@ -81,11 +82,54 @@
 
     <h2>Getting Started</h2>
 
-    <p>There exist jar-files with <a href="http://github.com/mikiobraun/jblas/downloads">prebuild native libraries</a> for a
-    number of platforms.</p>
+    <p>There exists a prepackaged jar-file
+    with <a href="http://github.com/mikiobraun/jblas/downloads">prebuild
+    native libraries</a>. Currently, Linux (i386/x86_64), Mac OS X
+    (i386/x86_64) and Windows (i386) are covered. 64 bit Windows will
+    follow as soon as I get access to such a machine.</p>
 
     <p>For instructions on compiling everything yourself, see
     <a href="http://github.com/mikiobraun/jblas/blob/e1de8249b28137fa94a79558ee90ff037fd7c47d/INSTALL">INSTALL</a></p>
+
+    <p>If you download the prepackaged file, you can run it
+    with <code>java -server -jar jblas-1.0.jar</code></p> to check the
+    basic install and get some performance number. On my laptop
+    (Linux, i386, Core2Duo 2Ghz), I get the following:
+
+    <pre><code>Simple benchmark for jblas
+
+Running sanity benchmarks.
+
+checking vector addition... ok
+-- org.jblas CONFIG BLAS native library not found in path. Copying native library from the archive. Consider installing the library somewhere in the path (for Windows: PATH, for Linux: LD_LIBRARY_PATH).
+-- org.jblas CONFIG Loading libjblas.so from /lib/static/Linux/i386/libjblas.so.
+checking matrix multiplication... ok
+checking existence of dsyev...... ok
+checking XERBLA... ok
+Sanity checks passed.
+
+Each benchmark will take about 5 seconds...
+
+Running benchmark "Java matrix multiplication, double precision".
+n = 10   :  424.4 MFLOPS (1061118 iterations in 5.0 seconds)
+n = 100  : 1272.6 MFLOPS (3182 iterations in 5.0 seconds)
+n = 1000 :  928.5 MFLOPS (3 iterations in 6.5 seconds)
+
+Running benchmark "Java matrix multiplication, single precision".
+n = 10   :  445.0 MFLOPS (1112397 iterations in 5.0 seconds)
+n = 100  : 1273.0 MFLOPS (3183 iterations in 5.0 seconds)
+n = 1000 : 1330.9 MFLOPS (4 iterations in 6.0 seconds)
+
+Running benchmark "ATLAS matrix multiplication, double precision".
+n = 10   :  428.2 MFLOPS (1070428 iterations in 5.0 seconds)
+n = 100  : 3293.9 MFLOPS (8235 iterations in 5.0 seconds)
+n = 1000 : 5383.2 MFLOPS (14 iterations in 5.2 seconds)
+
+Running benchmark "ATLAS matrix multiplication, single precision".
+n = 10   :  465.2 MFLOPS (1162905 iterations in 5.0 seconds)
+n = 100  : 5997.3 MFLOPS (14994 iterations in 5.0 seconds)
+n = 1000 : 9186.6 MFLOPS (23 iterations in 5.0 seconds)
+    </code></pre>
 
     <p>Other sources of information:
       <ul>
