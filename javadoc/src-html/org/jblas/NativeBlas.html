@@ -396,8 +396,40 @@
 <FONT color="green">393</FONT>        return info;<a name="line.393"></a>
 <FONT color="green">394</FONT>      }<a name="line.394"></a>
 <FONT color="green">395</FONT>    <a name="line.395"></a>
-<FONT color="green">396</FONT>    <a name="line.396"></a>
-<FONT color="green">397</FONT>    }<a name="line.397"></a>
+<FONT color="green">396</FONT>      public static native int dsygvd(int itype, char jobz, char uplo, int n, double[] a, int aIdx, int lda, double[] b, int bIdx, int ldb, double[] w, int wIdx, double[] work, int workIdx, int lwork, int[] iwork, int iworkIdx, int liwork);<a name="line.396"></a>
+<FONT color="green">397</FONT>      public static int dsygvd(int itype, char jobz, char uplo, int n, double[] a, int aIdx, int lda, double[] b, int bIdx, int ldb, double[] w, int wIdx) {<a name="line.397"></a>
+<FONT color="green">398</FONT>        int info;<a name="line.398"></a>
+<FONT color="green">399</FONT>        double[] work = new double[1];<a name="line.399"></a>
+<FONT color="green">400</FONT>        int lwork;<a name="line.400"></a>
+<FONT color="green">401</FONT>        int[] iwork = new int[1];<a name="line.401"></a>
+<FONT color="green">402</FONT>        int liwork;<a name="line.402"></a>
+<FONT color="green">403</FONT>        info = dsygvd(itype, jobz, uplo, n, doubleDummy, 0, lda, doubleDummy, 0, ldb, doubleDummy, 0, work, 0, -1, iwork, 0, -1);<a name="line.403"></a>
+<FONT color="green">404</FONT>        if (info != 0)<a name="line.404"></a>
+<FONT color="green">405</FONT>          return info;<a name="line.405"></a>
+<FONT color="green">406</FONT>        lwork = (int) work[0]; work = new double[lwork];<a name="line.406"></a>
+<FONT color="green">407</FONT>        liwork = (int) iwork[0]; iwork = new int[liwork];<a name="line.407"></a>
+<FONT color="green">408</FONT>        info = dsygvd(itype, jobz, uplo, n, a, aIdx, lda, b, bIdx, ldb, w, wIdx, work, 0, lwork, iwork, 0, liwork);<a name="line.408"></a>
+<FONT color="green">409</FONT>        return info;<a name="line.409"></a>
+<FONT color="green">410</FONT>      }<a name="line.410"></a>
+<FONT color="green">411</FONT>    <a name="line.411"></a>
+<FONT color="green">412</FONT>      public static native int ssygvd(int itype, char jobz, char uplo, int n, float[] a, int aIdx, int lda, float[] b, int bIdx, int ldb, float[] w, int wIdx, float[] work, int workIdx, int lwork, int[] iwork, int iworkIdx, int liwork);<a name="line.412"></a>
+<FONT color="green">413</FONT>      public static int ssygvd(int itype, char jobz, char uplo, int n, float[] a, int aIdx, int lda, float[] b, int bIdx, int ldb, float[] w, int wIdx) {<a name="line.413"></a>
+<FONT color="green">414</FONT>        int info;<a name="line.414"></a>
+<FONT color="green">415</FONT>        float[] work = new float[1];<a name="line.415"></a>
+<FONT color="green">416</FONT>        int lwork;<a name="line.416"></a>
+<FONT color="green">417</FONT>        int[] iwork = new int[1];<a name="line.417"></a>
+<FONT color="green">418</FONT>        int liwork;<a name="line.418"></a>
+<FONT color="green">419</FONT>        info = ssygvd(itype, jobz, uplo, n, floatDummy, 0, lda, floatDummy, 0, ldb, floatDummy, 0, work, 0, -1, iwork, 0, -1);<a name="line.419"></a>
+<FONT color="green">420</FONT>        if (info != 0)<a name="line.420"></a>
+<FONT color="green">421</FONT>          return info;<a name="line.421"></a>
+<FONT color="green">422</FONT>        lwork = (int) work[0]; work = new float[lwork];<a name="line.422"></a>
+<FONT color="green">423</FONT>        liwork = (int) iwork[0]; iwork = new int[liwork];<a name="line.423"></a>
+<FONT color="green">424</FONT>        info = ssygvd(itype, jobz, uplo, n, a, aIdx, lda, b, bIdx, ldb, w, wIdx, work, 0, lwork, iwork, 0, liwork);<a name="line.424"></a>
+<FONT color="green">425</FONT>        return info;<a name="line.425"></a>
+<FONT color="green">426</FONT>      }<a name="line.426"></a>
+<FONT color="green">427</FONT>    <a name="line.427"></a>
+<FONT color="green">428</FONT>    <a name="line.428"></a>
+<FONT color="green">429</FONT>    }<a name="line.429"></a>
 
 
 

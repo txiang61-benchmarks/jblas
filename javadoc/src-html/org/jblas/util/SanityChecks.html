@@ -3,7 +3,7 @@
 <PRE>
 <FONT color="green">001</FONT>    // --- BEGIN LICENSE BLOCK ---<a name="line.1"></a>
 <FONT color="green">002</FONT>    /*<a name="line.2"></a>
-<FONT color="green">003</FONT>     * Copyright (c) 2009, Mikio L. Braun<a name="line.3"></a>
+<FONT color="green">003</FONT>     * Copyright (c) 2009-2011, Mikio L. Braun<a name="line.3"></a>
 <FONT color="green">004</FONT>     * All rights reserved.<a name="line.4"></a>
 <FONT color="green">005</FONT>     *<a name="line.5"></a>
 <FONT color="green">006</FONT>     * Redistribution and use in source and binary forms, with or without<a name="line.6"></a>
@@ -152,43 +152,52 @@
 <FONT color="green">149</FONT>            check("checking existence of dgesvd...", true);<a name="line.149"></a>
 <FONT color="green">150</FONT>        }<a name="line.150"></a>
 <FONT color="green">151</FONT>    <a name="line.151"></a>
-<FONT color="green">152</FONT>        public static void checkComplexReturnValues() {<a name="line.152"></a>
-<FONT color="green">153</FONT>            double[] data = new double[] {<a name="line.153"></a>
-<FONT color="green">154</FONT>                1.0, 2.0, 3.0, 4.0, 5.0, 6.0<a name="line.154"></a>
-<FONT color="green">155</FONT>            };<a name="line.155"></a>
-<FONT color="green">156</FONT>    <a name="line.156"></a>
-<FONT color="green">157</FONT>            ComplexDoubleMatrix A = new ComplexDoubleMatrix(data);<a name="line.157"></a>
-<FONT color="green">158</FONT>    <a name="line.158"></a>
-<FONT color="green">159</FONT>            ComplexDouble z = A.dotu(A);<a name="line.159"></a>
+<FONT color="green">152</FONT>        public static void checkGeneralizedEigenvalues() {<a name="line.152"></a>
+<FONT color="green">153</FONT>            DoubleMatrix A = new DoubleMatrix(3, 3, 2.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 1.0, 2.0);<a name="line.153"></a>
+<FONT color="green">154</FONT>            DoubleMatrix B = new DoubleMatrix(3, 3, 4.0, 2.0, 1.0, 2.0, 4.0, 2.0, 1.0, 2.0, 4.0);<a name="line.154"></a>
+<FONT color="green">155</FONT>    <a name="line.155"></a>
+<FONT color="green">156</FONT>            DoubleMatrix[] LA = org.jblas.Eigen.symmetricGeneralizedEigenvectors(A, B);<a name="line.156"></a>
+<FONT color="green">157</FONT>    <a name="line.157"></a>
+<FONT color="green">158</FONT>            check("checkign existence of gsyevd (generalized eigenvalues)...", true);<a name="line.158"></a>
+<FONT color="green">159</FONT>        }<a name="line.159"></a>
 <FONT color="green">160</FONT>    <a name="line.160"></a>
-<FONT color="green">161</FONT>            System.out.print("Checking complex return values... ");<a name="line.161"></a>
-<FONT color="green">162</FONT>            System.out.println("(z = " + z.toString() + ")");<a name="line.162"></a>
-<FONT color="green">163</FONT>        }<a name="line.163"></a>
-<FONT color="green">164</FONT>    <a name="line.164"></a>
-<FONT color="green">165</FONT>        public static void main(String[] args) {<a name="line.165"></a>
-<FONT color="green">166</FONT>            Logger.getLogger().setLevel(Logger.CONFIG);<a name="line.166"></a>
-<FONT color="green">167</FONT>            for (String arg : args) {<a name="line.167"></a>
-<FONT color="green">168</FONT>                if (arg.equals("--debug")) {<a name="line.168"></a>
-<FONT color="green">169</FONT>                    Logger.getLogger().setLevel(Logger.DEBUG);<a name="line.169"></a>
-<FONT color="green">170</FONT>                }<a name="line.170"></a>
-<FONT color="green">171</FONT>            }<a name="line.171"></a>
-<FONT color="green">172</FONT>            checkVectorAddition();<a name="line.172"></a>
-<FONT color="green">173</FONT>            checkMatrixMultiplication();<a name="line.173"></a>
-<FONT color="green">174</FONT>            checkEigenvalues();<a name="line.174"></a>
-<FONT color="green">175</FONT>            checkSVD();<a name="line.175"></a>
-<FONT color="green">176</FONT>            checkComplexReturnValues();<a name="line.176"></a>
-<FONT color="green">177</FONT>            checkXerbla();<a name="line.177"></a>
-<FONT color="green">178</FONT>            printSummary();<a name="line.178"></a>
-<FONT color="green">179</FONT>        }<a name="line.179"></a>
-<FONT color="green">180</FONT>    <a name="line.180"></a>
-<FONT color="green">181</FONT>        private static void printSummary() {<a name="line.181"></a>
-<FONT color="green">182</FONT>            if (checksFailed == 0) {<a name="line.182"></a>
-<FONT color="green">183</FONT>                System.out.println("Sanity checks passed.");<a name="line.183"></a>
-<FONT color="green">184</FONT>            } else {<a name="line.184"></a>
-<FONT color="green">185</FONT>                System.out.println("Sainty checks FAILED!");<a name="line.185"></a>
-<FONT color="green">186</FONT>            }<a name="line.186"></a>
-<FONT color="green">187</FONT>        }<a name="line.187"></a>
-<FONT color="green">188</FONT>    }<a name="line.188"></a>
+<FONT color="green">161</FONT>        public static void checkComplexReturnValues() {<a name="line.161"></a>
+<FONT color="green">162</FONT>            double[] data = new double[] {<a name="line.162"></a>
+<FONT color="green">163</FONT>                1.0, 2.0, 3.0, 4.0, 5.0, 6.0<a name="line.163"></a>
+<FONT color="green">164</FONT>            };<a name="line.164"></a>
+<FONT color="green">165</FONT>    <a name="line.165"></a>
+<FONT color="green">166</FONT>            ComplexDoubleMatrix A = new ComplexDoubleMatrix(data);<a name="line.166"></a>
+<FONT color="green">167</FONT>    <a name="line.167"></a>
+<FONT color="green">168</FONT>            ComplexDouble z = A.dotu(A);<a name="line.168"></a>
+<FONT color="green">169</FONT>    <a name="line.169"></a>
+<FONT color="green">170</FONT>            System.out.print("Checking complex return values... ");<a name="line.170"></a>
+<FONT color="green">171</FONT>            System.out.println("(z = " + z.toString() + ")");<a name="line.171"></a>
+<FONT color="green">172</FONT>        }<a name="line.172"></a>
+<FONT color="green">173</FONT>    <a name="line.173"></a>
+<FONT color="green">174</FONT>        public static void main(String[] args) {<a name="line.174"></a>
+<FONT color="green">175</FONT>            Logger.getLogger().setLevel(Logger.CONFIG);<a name="line.175"></a>
+<FONT color="green">176</FONT>            for (String arg : args) {<a name="line.176"></a>
+<FONT color="green">177</FONT>                if (arg.equals("--debug")) {<a name="line.177"></a>
+<FONT color="green">178</FONT>                    Logger.getLogger().setLevel(Logger.DEBUG);<a name="line.178"></a>
+<FONT color="green">179</FONT>                }<a name="line.179"></a>
+<FONT color="green">180</FONT>            }<a name="line.180"></a>
+<FONT color="green">181</FONT>            checkVectorAddition();<a name="line.181"></a>
+<FONT color="green">182</FONT>            checkMatrixMultiplication();<a name="line.182"></a>
+<FONT color="green">183</FONT>            checkEigenvalues();<a name="line.183"></a>
+<FONT color="green">184</FONT>            checkSVD();<a name="line.184"></a>
+<FONT color="green">185</FONT>            checkComplexReturnValues();<a name="line.185"></a>
+<FONT color="green">186</FONT>            checkXerbla();<a name="line.186"></a>
+<FONT color="green">187</FONT>            printSummary();<a name="line.187"></a>
+<FONT color="green">188</FONT>        }<a name="line.188"></a>
+<FONT color="green">189</FONT>    <a name="line.189"></a>
+<FONT color="green">190</FONT>        private static void printSummary() {<a name="line.190"></a>
+<FONT color="green">191</FONT>            if (checksFailed == 0) {<a name="line.191"></a>
+<FONT color="green">192</FONT>                System.out.println("Sanity checks passed.");<a name="line.192"></a>
+<FONT color="green">193</FONT>            } else {<a name="line.193"></a>
+<FONT color="green">194</FONT>                System.out.println("Sainty checks FAILED!");<a name="line.194"></a>
+<FONT color="green">195</FONT>            }<a name="line.195"></a>
+<FONT color="green">196</FONT>        }<a name="line.196"></a>
+<FONT color="green">197</FONT>    }<a name="line.197"></a>
 
 
 
