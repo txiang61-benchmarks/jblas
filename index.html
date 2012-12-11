@@ -64,7 +64,7 @@
 	      <span class="small">by <a href="http://github.com/mikiobraun">mikiobraun</a></span></h1>
 	    
     <div class="description">Linear Algebra for Java (Current
-    Version: V1.2.0, released January 7, 2011)</div>
+    Version: V1.2.2-SNAPSHOT)</div>
 
     <p>jblas is a fast linear algebra library for Java. jblas is based
     on BLAS and LAPACK, the de-facto industry standard for matrix
@@ -85,7 +85,23 @@
     and BLAS/LAPACK
     (<a href="http://www.netlib.org/lapack">http://www.netlib.org/lapack</a>)</p>
 
-     <p><a title="View jblas - Fast matrix computations for Java on Scribd" href="http://www.scribd.com/doc/104872010/jblas-Fast-matrix-computations-for-Java" style="margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;">jblas - Fast matrix computations for Java</a><iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/104872010/content?start_page=1&view_mode=scroll&access_key=key-1sxdnhwvnmm4rgisfkup" data-auto-height="true" data-aspect-ratio="1.33115468409586" scrolling="no" id="doc_32149" width="100%" height="600" frameborder="0"></iframe></p>
+     <p><a title="View jblas - Fast matrix computations for Java on
+		  Scribd"
+		  href="http://www.scribd.com/doc/104872010/jblas-Fast-matrix-computations-for-Java"
+		  style="margin: 12px auto 6px auto; font-family:
+		  Helvetica,Arial,Sans-serif; font-style: normal;
+		  font-variant: normal; font-weight: normal;
+		  font-size: 14px; line-height: normal;
+		  font-size-adjust: none; font-stretch: normal;
+		  -x-system-font: none; display: block;
+		  text-decoration: underline;">jblas - Fast matrix
+		  computations for
+		  Java</a><iframe class="scribd_iframe_embed"
+		  src="http://www.scribd.com/embeds/104872010/content?start_page=1&view_mode=scroll&access_key=key-1sxdnhwvnmm4rgisfkup"
+		  data-auto-height="true"
+		  data-aspect-ratio="1.33115468409586" scrolling="no"
+		  id="doc_32149" width="100%" height="600"
+		  frameborder="0"></iframe></p>
 
      <p><a href="/src/CG.java">Download conjugate gradient example
      CG.java</a></p>
@@ -96,7 +112,9 @@
 
     <p>There exists a prepackaged jar-file
     with <a href="http://github.com/mikiobraun/jblas/downloads">prebuild
-    native libraries</a>. Currently, Linux (i386/amd64), Mac OS X
+    native libraries</a>. They are a bit outdated, however. It's
+    probably best to pull the project from github and do a <code>mvn
+    install</code>. Currently, Linux (i386/amd64), Mac OS X
     (i386/x86_64) and Windows (i386) are covered. Currently, only
     limited support for amd64 on
     Windows (full functionality, but not the same performance). <a href="http://wiki.github.com/mikiobraun/jblas/why-there-is-no-64bit-support-for-windows">Read
@@ -190,7 +208,7 @@ n = 1000 : 9186.6 MFLOPS (23 iterations in 5.0 seconds)
       </p>
       <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
 	by running:
-      <pre>$ git clone git://github.com/mikiobraun/jblas</pre>
+      <pre>$ git clone https://github.com/mikiobraun/jblas.git</pre>
       </p>
       
       <div class="footer">
