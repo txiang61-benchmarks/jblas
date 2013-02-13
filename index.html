@@ -64,7 +64,7 @@
 	      <span class="small">by <a href="http://github.com/mikiobraun">mikiobraun</a></span></h1>
 	    
     <div class="description">Linear Algebra for Java (Current
-    Version: V1.2.2)</div>
+    Version: V1.2.3)</div>
 
     <p>jblas is a fast linear algebra library for Java. jblas is based
     on BLAS and LAPACK, the de-facto industry standard for matrix
@@ -116,7 +116,7 @@
 	<pre>&lt;dependency&gt;
   &lt;groupId&gt;org.jblas&lt;/groupId&gt;
   &lt;artifactId&gt;jblas&lt;/artifactId&gt;
-  &lt;version&gt;1.2.2&lt;/version&gt;
+  &lt;version&gt;1.2.3&lt;/version&gt;
 &lt;/dependency&gt;
 	  </pre></li>
       <li>Clone the repository and compile or install locally:
@@ -138,50 +138,60 @@ $ mvn install</pre></li>
     <a href="http://github.com/mikiobraun/jblas/blob/master/INSTALL">INSTALL</a>.</p>
 
     <p>If you download the prepackaged file, you can run it
-    with <code>java -server -jar jblas-1.2.2.jar</code></p> to check the
+    with <code>java -server -jar jblas-1.2.3.jar</code></p> to check the
     basic install and get some performance number. On my laptop
     (Linux, i386, Core2Duo 2Ghz), I get the following:
 
-    <pre><code>Simple benchmark for jblas
+    <pre><code>-- org.jblas INFO jblas version is 1.2.3
+Simple benchmark for jblas
 
 Running sanity benchmarks.
 
 checking vector addition... ok
 -- org.jblas CONFIG BLAS native library not found in path. Copying native library from the archive. Consider installing the library somewhere in the path (for Windows: PATH, for Linux: LD_LIBRARY_PATH).
--- org.jblas CONFIG Loading libjblas.so from /lib/static/Linux/i386/libjblas.so.
+-- org.jblas CONFIG ArchFlavor native library not found in path. Copying native library libjblas_arch_flavor from the archive. Consider installing the library somewhere in the path (for Windows: PATH, for Linux: LD_LIBRARY_PATH).
+-- org.jblas CONFIG Loading libjblas_arch_flavor.so from /lib/static/Linux/amd64/, copying to libjblas_arch_flavor.so.
+-- org.jblas CONFIG Loading libjblas.so from /lib/static/Linux/amd64/sse3/, copying to libjblas.so.
 checking matrix multiplication... ok
 checking existence of dsyev...... ok
+[-0.210656, -0.640445, -0.451188; -0.509085, -0.116445, 0.796815; -0.807515, 0.407556, -0.398408; 0.210656, 0.640445, -0.052780]
+[17.233688; 1.414214; 0.000000]
+[-0.470605, 0.782218, 0.408248; -0.571449, 0.082339, -0.816497; -0.672293, -0.617540, 0.408248]
+[17.233688; 1.414214; 0.000000]
+checking existence of dgesvd...... ok
+Checking complex return values... (z = -21.0 + 88.0i)
+Check whether we're catching XERBLA errors. If you see something like "** On entry to DGEMM  parameter number  4 had an illegal value", it didn't work!
 checking XERBLA... ok
 Sanity checks passed.
 
 Each benchmark will take about 5 seconds...
 
 Running benchmark "Java matrix multiplication, double precision".
-n = 10   :  424.4 MFLOPS (1061118 iterations in 5.0 seconds)
-n = 100  : 1272.6 MFLOPS (3182 iterations in 5.0 seconds)
-n = 1000 :  928.5 MFLOPS (3 iterations in 6.5 seconds)
+n = 10   :  1.530 GFLOPS (3825688 iterations in 5.0 seconds)
+n = 100  :  2.107 GFLOPS (5268 iterations in 5.0 seconds)
+n = 1000 :  1.122 GFLOPS (3 iterations in 5.3 seconds)
 
 Running benchmark "Java matrix multiplication, single precision".
-n = 10   :  445.0 MFLOPS (1112397 iterations in 5.0 seconds)
-n = 100  : 1273.0 MFLOPS (3183 iterations in 5.0 seconds)
-n = 1000 : 1330.9 MFLOPS (4 iterations in 6.0 seconds)
+n = 10   :  1.356 GFLOPS (3391101 iterations in 5.0 seconds)
+n = 100  :  1.669 GFLOPS (4174 iterations in 5.0 seconds)
+n = 1000 :  1.447 GFLOPS (4 iterations in 5.5 seconds)
 
 Running benchmark "ATLAS matrix multiplication, double precision".
-n = 10   :  428.2 MFLOPS (1070428 iterations in 5.0 seconds)
-n = 100  : 3293.9 MFLOPS (8235 iterations in 5.0 seconds)
-n = 1000 : 5383.2 MFLOPS (14 iterations in 5.2 seconds)
+n = 10   :  1.475 GFLOPS (3686332 iterations in 5.0 seconds)
+n = 100  :  5.408 GFLOPS (13523 iterations in 5.0 seconds)
+n = 1000 :  8.076 GFLOPS (21 iterations in 5.2 seconds)
 
 Running benchmark "ATLAS matrix multiplication, single precision".
-n = 10   :  465.2 MFLOPS (1162905 iterations in 5.0 seconds)
-n = 100  : 5997.3 MFLOPS (14994 iterations in 5.0 seconds)
-n = 1000 : 9186.6 MFLOPS (23 iterations in 5.0 seconds)
+n = 10   :  1.510 GFLOPS (3774883 iterations in 5.0 seconds)
+n = 100  : 10.400 GFLOPS (26001 iterations in 5.0 seconds)
+n = 1000 : 16.668 GFLOPS (42 iterations in 5.0 seconds)
     </code></pre>
 
     <p>Other sources of information:
       <ul>
-	<li>Follow me</li>
-	on <a href="http://twitter.com/mikiobraun">twitter</a>.
-	<li>Visit Mikio's <a href="http://blog.mikiobraun.de">blog</a>.</li>
+	<li>Follow me
+	on <a href="http://twitter.com/mikiobraun">twitter</a>.</li>
+	<li>Visit my <a href="http://blog.mikiobraun.de">blog</a>.</li>
 	<li>Visit
 	Johannes's <a href="http://schabby.de/category/jblas/">blog</a>.</li>
 	<li>Like us on <a href="http://www.facebook.com/pages/jBLAS-Fast-Linear-Algebra-with-Java/123976567969">Facebook</a>.</li>
