@@ -1,0 +1,26 @@
+-encoding
+'UTF-8'
+-overview
+'/home/mikio/Active/jblas/src/main/javadoc/overview.html'
+-protected
+-sourcepath
+'/home/mikio/Active/jblas/src/main/java:/home/mikio/Active/jblas/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2015. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/mikio/Active/jblas/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'jblas 1.2.4 API'
+-linkoffline
+'http://docs.oracle.com/javase/1.5.0/docs/api' '/home/mikio/Active/jblas/target/javadoc-bundle-options'
+-stylesheetfile
+'/home/mikio/Active/jblas/src/main/javadoc/stylesheet.css'
+-use
+-version
+-windowtitle
+'jblas 1.2.4 API'
