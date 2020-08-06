@@ -36,6 +36,9 @@
 
 package org.jblas;
 
+import units.qual.*;
+import units.UnitsTools;
+
 /**
  * This class provides the functions from java.lang.Math for matrices. The
  * functions are applied to each element of the matrix.
@@ -94,7 +97,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.acos') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.acos(x.get(i)));
+	      x.put(i, (double) Math.acos(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -109,7 +112,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.asin') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.asin(x.get(i)));
+	      x.put(i, (double) Math.asin(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -124,7 +127,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.atan') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.atan(x.get(i)));
+	      x.put(i, (double) Math.atan(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -169,7 +172,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.cos') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.cos(x.get(i)));
+	      x.put(i, (double) Math.cos(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -184,7 +187,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.cosh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.cosh(x.get(i)));
+	      x.put(i, (double) Math.cosh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -292,7 +295,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.sin') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.sin(x.get(i)));
+	      x.put(i, (double) Math.sin(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -301,7 +304,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.sinh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.sinh(x.get(i)));
+	      x.put(i, (double) Math.sinh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -317,7 +320,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.tan') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.tan(x.get(i)));
+	      x.put(i, (double) Math.tan(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -325,7 +328,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.tanh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (double) Math.tanh(x.get(i)));
+	      x.put(i, (double) Math.tanh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -525,7 +528,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.acos') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.acos(x.get(i)));
+	      x.put(i, (float) Math.acos(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -540,7 +543,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.asin') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.asin(x.get(i)));
+	      x.put(i, (float) Math.asin(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -555,7 +558,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.atan') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.atan(x.get(i)));
+	      x.put(i, (float) Math.atan(x.get(i)) / UnitsTools.rad);
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -600,7 +603,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.cos') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.cos(x.get(i)));
+	      x.put(i, (float) Math.cos(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -615,7 +618,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.cosh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.cosh(x.get(i)));
+	      x.put(i, (float) Math.cosh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -723,7 +726,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.sin') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.sin(x.get(i)));
+	      x.put(i, (float) Math.sin(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -732,7 +735,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.sinh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.sinh(x.get(i)));
+	      x.put(i, (float) Math.sinh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -748,7 +751,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.tan') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.tan(x.get(i)));
+	      x.put(i, (float) Math.tan(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
@@ -756,7 +759,7 @@ public class MatrixFunctions {
 		/*# mapfct('Math.tanh') #*/
 //RJPP-BEGIN------------------------------------------------------------
 	   for (int i = 0; i < x.length; i++)
-	      x.put(i, (float) Math.tanh(x.get(i)));
+	      x.put(i, (float) Math.tanh(x.get(i) * UnitsTools.rad));
 	   return x;
 //RJPP-END--------------------------------------------------------------
 	}
