@@ -1,0 +1,1049 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Apache Maven 3.6.0
+Maven home: /usr/share/maven
+Java version: 11.0.8, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF8
+OS name: "linux", version: "5.4.0-1021-gcp", arch: "amd64", family: "unix"
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /root/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /root/.m2/toolchains.xml
+[DEBUG] Using local repository at /root/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /root/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.jblas:jblas:jar:1.2.4-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.sonatype.oss:oss-parent:pom:7: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.jblas:jblas:jar:1.2.4-SNAPSHOT
+[DEBUG] Tasks:   [compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------------< org.jblas:jblas >---------------------------
+[INFO] Building jblas 1.2.4-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.jblas:jblas:1.2.4-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.0:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <project>${project}</project>
+  <rules>
+    <requireMavenVersion>
+      <version>(,2.1.0),(2.1.0,2.2.0),(2.2.0,)</version>
+      <message>Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.</message>
+    </requireMavenVersion>
+  </rules>
+  <session>${session}</session>
+  <skip default-value="false">${enforcer.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-antrun-plugin:1.3:run (generate-float-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <pluginArtifacts>${plugin.artifacts}</pluginArtifacts>
+  <project>${project}</project>
+  <sourceRoot>${sourceRoot}</sourceRoot>
+  <tasks>
+    <ant target="generate-float"/>${tasks}</tasks>
+  <testSourceRoot>${testSourceRoot}</testSourceRoot>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">1.6</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">1.6</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1165991, ConflictMarker.markTime=602549, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=523133, ConflictIdSorter.topsortTime=423775, ConflictIdSorter.conflictIdCount=2, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3585393, ConflictResolver.conflictItemCount=2, DefaultDependencyCollector.collectTime=43166816, DefaultDependencyCollector.transformTime=9124284}
+[DEBUG] org.jblas:jblas:jar:1.2.4-SNAPSHOT
+[DEBUG]    junit:junit:jar:4.10:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.1:test
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ jblas ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2057923, ConflictMarker.markTime=892203, ConflictMarker.nodeCount=100, ConflictIdSorter.graphTime=645936, ConflictIdSorter.topsortTime=76441, ConflictIdSorter.conflictIdCount=32, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7590559, ConflictResolver.conflictItemCount=90, DefaultDependencyCollector.collectTime=669540228, DefaultDependencyCollector.transformTime=11421646}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.0:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.0:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.2:compile
+[DEBUG]          org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:test
+[DEBUG]             org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:test
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:1.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.0
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.2
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.0:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.0:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (s) project = MavenProject: org.jblas:jblas:1.2.4-SNAPSHOT @ /home/opprop/units-inference/benchmarks/paper-annotation/jblas/pom.xml
+[DEBUG]   (s) version = (,2.1.0),(2.1.0,2.2.0),(2.2.0,)
+[DEBUG]   (f) message = Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireMavenVersion@49601f82]
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@23e44287
+[DEBUG]   (s) skip = false
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.6.0
+[DEBUG] Detected Maven Version: 3.6.0 is allowed in the range (,2.1.0),(2.1.0,2.2.0),(2.2.0,).
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.3:run (generate-float-sources) @ jblas ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1376940, ConflictMarker.markTime=76786, ConflictMarker.nodeCount=31, ConflictIdSorter.graphTime=69064, ConflictIdSorter.topsortTime=30689, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=692178, ConflictResolver.conflictItemCount=31, DefaultDependencyCollector.collectTime=137270318, DefaultDependencyCollector.transformTime=2286611}
+[DEBUG] org.apache.maven.plugins:maven-antrun-plugin:jar:1.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.4:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG]    org.apache.ant:ant-launcher:jar:1.7.1:runtime
+[DEBUG]    org.apache.ant:ant:jar:1.7.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-antrun-plugin:1.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG]   Included: org.apache.ant:ant-launcher:jar:1.7.1
+[DEBUG]   Included: org.apache.ant:ant:jar:1.7.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-antrun-plugin:1.3:run from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-antrun-plugin:1.3, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-antrun-plugin:1.3:run' with override configurator -->
+[DEBUG]   (f) pluginArtifacts = [org.apache.maven.plugins:maven-antrun-plugin:maven-plugin:1.3:, org.apache.maven:maven-plugin-api:jar:2.0.4:compile, org.apache.maven:maven-project:jar:2.0.4:compile, org.apache.maven:maven-settings:jar:2.0.4:compile, org.apache.maven:maven-profile:jar:2.0.4:compile, org.apache.maven:maven-model:jar:2.0.4:compile, org.apache.maven:maven-artifact-manager:jar:2.0.4:compile, org.apache.maven:maven-repository-metadata:jar:2.0.4:compile, org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile, junit:junit:jar:3.8.1:compile, classworlds:classworlds:jar:1.1-alpha-2:compile, org.apache.maven:maven-artifact:jar:2.0.4:compile, org.codehaus.plexus:plexus-utils:jar:1.5.6:compile, org.apache.ant:ant-launcher:jar:1.7.1:runtime, org.apache.ant:ant:jar:1.7.1:compile]
+[DEBUG]   (f) project = MavenProject: org.jblas:jblas:1.2.4-SNAPSHOT @ /home/opprop/units-inference/benchmarks/paper-annotation/jblas/pom.xml
+[DEBUG]   (f) tasks = 
+[DEBUG] -- end configuration --
+[DEBUG] Storing: maven.dependency.junit.junit.jar.path=/root/.m2/repository/junit/junit/4.10/junit-4.10.jar
+[DEBUG] Storing: maven.dependency.org.hamcrest.hamcrest-core.jar.path=/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+Project base dir set to: /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+Adding reference: maven.dependency.classpath
+Adding reference: maven.compile.classpath
+Adding reference: maven.runtime.classpath
+Adding reference: maven.test.classpath
+Adding reference: maven.plugin.classpath
+[INFO] Executing tasks
+[DEBUG] getProperty(ns=null, name=ant.reuse.loader, user=false)
+[antlib:org.apache.tools.ant] Could not load definitions from resource org/apache/tools/ant/antlib.xml. It could not be found.
+[DEBUG] getProperty(ns=null, name=ant.executor.class, user=false)
+Attempting to create object of type org.apache.tools.ant.helper.DefaultExecutor
+Adding reference: ant.executor
+Setting ro project property: ant.project.name -> DummyProject
+Setting project property: java.runtime.version -> 11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+Setting project property: file.separator -> /
+Setting project property: user.country -> US
+Setting project property: java.vm.version -> 11.0.8+10-post-Ubuntu-0ubuntu118.04.1
+Setting project property: line.separator -> 
+Setting project property: sun.io.unicode.encoding -> UnicodeLittle
+Setting project property: user.dir -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+Setting project property: maven.home -> /usr/share/maven
+Setting project property: skipTests -> true
+Setting project property: java.specification.name -> Java Platform API Specification
+Setting project property: sun.java.command -> org.codehaus.plexus.classworlds.launcher.Launcher -X -B -B -DskipTests compile
+Setting project property: java.vm.specification.name -> Java Virtual Machine Specification
+Setting project property: java.specification.vendor -> Oracle Corporation
+Setting project property: ant.core.lib -> /root/.m2/repository/org/apache/ant/ant/1.7.1/ant-1.7.1.jar
+Setting project property: path.separator -> :
+Setting project property: sun.arch.data.model -> 64
+Setting project property: guice.disable.misplaced.annotation.check -> true
+Setting project property: library.jansi.path -> /usr/share/maven/lib/jansi-native
+Setting project property: classworlds.conf -> /usr/share/maven/bin/m2.conf
+Setting project property: os.name -> Linux
+Setting project property: sun.jnu.encoding -> ANSI_X3.4-1968
+Setting project property: sun.boot.library.path -> /usr/lib/jvm/java-11-openjdk-amd64/lib
+Setting project property: ant.version -> Apache Ant version 1.7.1 compiled on June 27 2008
+Setting project property: java.version.date -> 2020-07-14
+Setting project property: awt.toolkit -> sun.awt.X11.XToolkit
+Setting project property: user.name -> root
+Setting project property: os.version -> 5.4.0-1021-gcp
+Setting project property: sun.java.launcher -> SUN_STANDARD
+Setting project property: sun.management.compiler -> HotSpot 64-Bit Tiered Compilers
+Setting project property: java.awt.graphicsenv -> sun.awt.X11GraphicsEnvironment
+Setting project property: java.library.path -> /home/opprop/checker-framework-inference/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Setting project property: java.vm.specification.version -> 11
+Setting project property: user.timezone -> America/Toronto
+Setting project property: java.vm.info -> mixed mode, sharing
+Setting project property: sun.os.patch.level -> unknown
+Setting project property: sun.cpu.isalist -> 
+Setting project property: java.runtime.name -> OpenJDK Runtime Environment
+Setting project property: java.home -> /usr/lib/jvm/java-11-openjdk-amd64
+Setting project property: org.slf4j.simpleLogger.defaultLogLevel -> debug
+Setting project property: java.class.path -> /usr/share/maven/boot/plexus-classworlds-2.x.jar
+Setting project property: maven.conf -> /usr/share/maven/conf
+Setting project property: user.home -> /root
+Setting project property: java.specification.version -> 11
+Setting project property: os.arch -> amd64
+Setting project property: java.awt.printerjob -> sun.print.PSPrinterJob
+Setting project property: java.vm.specification.vendor -> Oracle Corporation
+Setting project property: java.vendor.url.bug -> https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+Setting project property: user.language -> en
+Setting project property: java.class.version -> 55.0
+Setting project property: jdk.debug -> release
+Setting project property: java.vm.name -> OpenJDK 64-Bit Server VM
+Setting project property: maven.multiModuleProjectDirectory -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+Setting project property: java.vendor.url -> https://ubuntu.com/
+Setting project property: java.vendor -> Ubuntu
+Setting project property: java.vm.vendor -> Ubuntu
+Setting project property: java.io.tmpdir -> /tmp
+Setting project property: java.vm.compressedOopsMode -> Zero based
+Setting project property: securerandom.source -> file:/dev/./urandom
+Setting project property: java.version -> 11.0.8
+Setting project property: file.encoding -> UTF8
+Setting project property: sun.cpu.endian -> little
+Project base dir set to: /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+      [ant] calling target(s) [generate-float] in build file /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml
+Setting ro project property: ant.file -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml
+[DEBUG] getProperty(ns=null, name=ant.file, user=false)
+Adding reference: ant.projectHelper
+Adding reference: ant.parsing.context
+Adding reference: ant.targets
+parsing buildfile /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml with URI = file:/home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml
+Setting ro project property: ant.project.name -> java-blas
+Adding reference: java-blas
+Setting ro project property: ant.file.java-blas -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml
+Project base dir set to: /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+ +Target: 
+ +Target: clean
+ +Target: clean-jars
+ +Target: prepare
+ +Target: compile
+ +Target: compile-test
+ +Target: javah
+ +Target: generate-float
+ +Target: preprocess
+ +Target: templates
+ +Target: dynamic-lean-jar
+ +Target: static-lean-jar
+ +Target: jar
+ +Target: minimal-jar
+ +Target: javadoc
+ +Target: test
+ +Target: all
+ +Target: tar
+Setting project property: version -> 1.2.4-SNAPSHOT
+Setting project property: src -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java
+Setting project property: test -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java
+Setting project property: bin -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+Setting project property: native-libs -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib
+Setting project property: doc -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/javadoc
+Setting project property: jar -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/jblas-1.2.4-SNAPSHOT.jar
+Setting project property: include -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/c
+Setting project property: native -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/c
+Setting project property: external -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/external
+Setting project property: scripts -> /home/opprop/units-inference/benchmarks/paper-annotation/jblas/scripts
+Setting project property: pkgbase -> org.jblas
+Setting project property: ruby -> ruby
+ +Datatype class-to-float org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  class-to-float
+ +Datatype static-class-to-float org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  static-class-to-float
+ +Datatype rjpp org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  rjpp
+ +Datatype create-jar org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  create-jar
+ +Datatype rb-macro org.apache.tools.ant.taskdefs.MacroInstance
+ [macrodef] creating macro  rb-macro
+[DEBUG] getProperty(ns=null, name=ant.file, user=false)
+      [ant] Entering /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml...
+Build sequence for target(s) `generate-float' is [preprocess, generate-float]
+Complete build sequence is [preprocess, generate-float, prepare, compile, minimal-jar, jar, javadoc, all, templates, dynamic-lean-jar, compile-test, clean-jars, static-lean-jar, clean, tar, test, javah, ]
+
+preprocess:
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/rjpp.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/DoubleMatrix.java'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/rjpp.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/DoubleMatrix.java'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/rjpp.rb:82:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/rjpp.rb:82:in `<main>'
+     [exec] Result: 1
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/rjpp.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java/org/jblas/TestDoubleMatrix.java'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/rjpp.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java/org/jblas/TestDoubleMatrix.java'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/rjpp.rb:82:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/rjpp.rb:82:in `<main>'
+     [exec] Result: 1
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/rjpp.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/rjpp.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/rjpp.rb:82:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/rjpp.rb:82:in `<main>'
+     [exec] Result: 1
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/rjpp.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexDoubleMatrix.java'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/rjpp.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexDoubleMatrix.java'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/rjpp.rb:82:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/rjpp.rb:82:in `<main>'
+     [exec] Result: 1
+
+generate-float:
+     [echo] Generating float version of org.jblas.DoubleMatrix
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.DoubleMatrix'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.DoubleMatrix'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Generating float version of org.jblas.DoubleFunction
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.DoubleFunction'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.DoubleFunction'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Generating float version of org.jblas.ComplexDouble
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.ComplexDouble'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.ComplexDouble'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Generating float version of org.jblas.TestDoubleMatrix
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java'
+     [exec] 'org.jblas.TestDoubleMatrix'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java'
+'org.jblas.TestDoubleMatrix'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Generating float version of org.jblas.TestBlasDouble
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java'
+     [exec] 'org.jblas.TestBlasDouble'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/test/java'
+'org.jblas.TestBlasDouble'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Generating float version of org.jblas.ComplexDoubleMatrix
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.ComplexDoubleMatrix'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.ComplexDoubleMatrix'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [exec] scripts/class_to_float.rb:64:in `gsub!': invalid byte sequence in US-ASCII (ArgumentError)
+     [exec] 	from scripts/class_to_float.rb:64:in `translate'
+     [exec] 	from scripts/class_to_float.rb:117:in `<main>'
+     [exec] Result: 1
+     [echo] Add float versions to class org.jblas.SimpleBlas
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.SimpleBlas'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.SimpleBlas'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.Solve
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.Solve'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.Solve'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.Eigen
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.Eigen'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.Eigen'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.Geometry
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.Geometry'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.Geometry'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.MatrixFunctions
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.MatrixFunctions'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.MatrixFunctions'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.JavaBlas
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.JavaBlas'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.JavaBlas'
+
+The ' characters around the executable and arguments are
+not part of the command.
+     [echo] Add float versions to class org.jblas.Singular
+     [exec] Current OS is Linux
+     [exec] Executing 'ruby' with arguments:
+     [exec] 'scripts/static_class_to_float.rb'
+     [exec] '/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+     [exec] 'org.jblas.Singular'
+     [exec] 
+     [exec] The ' characters around the executable and arguments are
+     [exec] not part of the command.
+Execute:Java13CommandLauncher: Executing 'ruby' with arguments:
+'scripts/static_class_to_float.rb'
+'/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java'
+'org.jblas.Singular'
+
+The ' characters around the executable and arguments are
+not part of the command.
+      [ant] Exiting /home/opprop/units-inference/benchmarks/paper-annotation/jblas/build.xml.
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jblas ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=337782, ConflictMarker.markTime=124567, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=198927, ConflictIdSorter.topsortTime=46082, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6066214, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=202641022, DefaultDependencyCollector.transformTime=6824158}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.jblas:jblas:1.2.4-SNAPSHOT @ /home/opprop/units-inference/benchmarks/paper-annotation/jblas/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23e44287
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {awt.toolkit=sun.awt.X11.XToolkit, env.TERM=xterm, java.specification.version=11, sun.cpu.isalist=, sun.jnu.encoding=ANSI_X3.4-1968, sun.arch.data.model=64, java.vendor.url=https://ubuntu.com/, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, maven.build.version=Apache Maven 3.6.0, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X -B -B -DskipTests compile, jdk.debug=release, maven.home=/usr/share/maven, maven.version=3.6.0, java.specification.vendor=Oracle Corporation, java.version.date=2020-07-14, java.home=/usr/lib/jvm/java-11-openjdk-amd64, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.8+10-post-Ubuntu-0ubuntu118.04.1, user.name=root, env.PATH=/home/opprop/annotation-tools/annotation-file-utilities/scripts:/home/opprop/z3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, env.AFU=/home/opprop/annotation-tools/annotation-file-utilities, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, file.encoding=UTF8, env.HOSTNAME=9ca410e9e0b0, env._=/usr/bin/python, env.SHLVL=3, java.io.tmpdir=/tmp, java.version=11.0.8, sonatypeOssDistMgmtSnapshotsUrl=https://oss.sonatype.org/content/repositories/snapshots/, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, env.CHECKERFRAMEWORK=/home/opprop/checker-framework, sun.os.patch.level=unknown, java.library.path=/home/opprop/checker-framework-inference/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, classworlds.conf=/usr/share/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, library.jansi.path=/usr/share/maven/lib/jansi-native, env.OLDPWD=/home/opprop/units-inference/benchmarks/paper-annotation/jblas, env.PWD=/home/opprop/units-inference/benchmarks/paper-annotation/jblas, env.LESSOPEN=| /usr/bin/lesspipe %s, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, env.HOME=/root, java.vm.vendor=Ubuntu, env.CLASSPATH=/home/opprop/units-inference/build/classes/java/main:/home/opprop/units-inference/build/resources/main:/home/opprop/units-inference/build/libs/units-inference.jar, user.timezone=, env.external_checker_classpath=/home/opprop/units-inference/build/classes/java/main:/home/opprop/units-inference/build/resources/main:/home/opprop/units-inference/build/libs/units-inference.jar, maven.conf=/usr/share/maven/conf, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, env.LD_LIBRARY_PATH=/home/opprop/checker-framework-inference/lib, sun.cpu.endian=little, user.home=/root, env.DYLD_LIBRARY_PATH=/home/opprop/checker-framework-inference/lib, user.language=en, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.PUNITS=/home/opprop/units-inference, path.separator=:, os.version=5.4.0-1021-gcp, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, skipTests=true, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.MAVEN_CMD_LINE_ARGS= -X -B -B -DskipTests compile, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, user.dir=/home/opprop/units-inference/benchmarks/paper-annotation/jblas, os.arch=amd64, maven.multiModuleProjectDirectory=/home/opprop/units-inference/benchmarks/paper-annotation/jblas, env.MAVEN_PROJECTBASEDIR=/home/opprop/units-inference/benchmarks/paper-annotation/jblas, java.vm.info=mixed mode, sharing, java.vm.version=11.0.8+10-post-Ubuntu-0ubuntu118.04.1, java.class.version=55.0}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 16 resources
+[DEBUG] file libjblas.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/ppc64le/libjblas.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/ppc64le/libjblas.so
+[DEBUG] file libjblas_arch_flavor.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/ppc64le/libjblas_arch_flavor.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/ppc64le/libjblas_arch_flavor.so
+[DEBUG] file libjblas_arch_flavor.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/i386/libjblas_arch_flavor.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/i386/libjblas_arch_flavor.so
+[DEBUG] file libjblas.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/i386/sse3/libjblas.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/i386/sse3/libjblas.so
+[DEBUG] file libjblas_arch_flavor.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/amd64/libjblas_arch_flavor.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/amd64/libjblas_arch_flavor.so
+[DEBUG] file libjblas.so has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Linux/amd64/sse3/libjblas.so to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Linux/amd64/sse3/libjblas.so
+[DEBUG] file libjblas_arch_flavor.jnilib has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Mac OS X/x86_64/libjblas_arch_flavor.jnilib to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Mac OS X/x86_64/libjblas_arch_flavor.jnilib
+[DEBUG] file libjblas.jnilib has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Mac OS X/x86_64/sse3/libjblas.jnilib to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Mac OS X/x86_64/sse3/libjblas.jnilib
+[DEBUG] file libgfortran-3.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/x86/libgfortran-3.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/x86/libgfortran-3.dll
+[DEBUG] file libgcc_s_dw2-1.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/x86/libgcc_s_dw2-1.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/x86/libgcc_s_dw2-1.dll
+[DEBUG] file jblas_arch_flavor.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/x86/jblas_arch_flavor.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/x86/jblas_arch_flavor.dll
+[DEBUG] file jblas.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/x86/sse3/jblas.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/x86/sse3/jblas.dll
+[DEBUG] file libgfortran-3.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/amd64/libgfortran-3.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/amd64/libgfortran-3.dll
+[DEBUG] file jblas_arch_flavor.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/amd64/jblas_arch_flavor.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/amd64/jblas_arch_flavor.dll
+[DEBUG] file libgcc_s_sjlj-1.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/amd64/libgcc_s_sjlj-1.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/amd64/libgcc_s_sjlj-1.dll
+[DEBUG] file jblas.dll has a filtered file extension
+[DEBUG] copy /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/resources/lib/static/Windows/amd64/jblas.dll to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes/lib/static/Windows/amd64/jblas.dll
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ jblas ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=287468, ConflictMarker.markTime=133913, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=225604, ConflictIdSorter.topsortTime=87854, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1163608, ConflictResolver.conflictItemCount=49, DefaultDependencyCollector.collectTime=79554593, DefaultDependencyCollector.transformTime=1943759}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.8.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@5bc2b487]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/opprop/units-inference/benchmarks/paper-annotation/jblas
+[DEBUG]   (f) buildDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target
+[DEBUG]   (f) classpathElements = [/home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/generated-sources/annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+[DEBUG]   (f) outputFileName = jblas-1.2.4-SNAPSHOT
+[DEBUG]   (f) projectArtifact = org.jblas:jblas:jar:1.2.4-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@23e44287
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.6
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.6
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java]
+[DEBUG] Classpath: [/home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes]
+[DEBUG] Output directory: /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+[DEBUG] Classpath:
+[DEBUG]  /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes -classpath /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes: -sourcepath /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java: /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Trigonometry.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/Logger.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/PointRange.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Geometry.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/package-info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/JavaBlas.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/Permutations.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/NativeBlasLibraryLoader.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/JavaDoubleMultiplicationBenchmark.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexFloat.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/package-info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/FloatMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Solve.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/Range.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/AllRange.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/NoEigenResultException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/package-info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/ArchFlavor.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/NativeBlas.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexDouble.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/Benchmark.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/package-info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/LapackConvergenceException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/IndicesRange.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/LapackArgumentException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/JavaFloatMultiplicationBenchmark.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/Timer.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/LapackPositivityException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ConvertsToFloatMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/FloatFunction.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/Functions.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/BenchmarkResult.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Decompose.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/DoubleMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/SizeException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/Main.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/UnsupportedArchitectureException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/package-info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Eigen.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexDoubleMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/SimpleBlas.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/LapackException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/DoubleFunction.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/Random.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/LibraryLoader.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/RangeUtils.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/util/SanityChecks.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/NativeDoubleMultiplicationBenchmark.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Info.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/exceptions/LapackSingularityException.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/benchmark/NativeFloatMultiplicationBenchmark.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ranges/IntervalRange.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ConvertsToDoubleMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/ComplexFloatMatrix.java /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/Singular.java -s /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/generated-sources/annotations -g -nowarn -target 1.6 -source 1.6 -encoding UTF-8
+[INFO] Compiling 56 source files to /home/opprop/units-inference/benchmarks/paper-annotation/jblas/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[40,12] error: package units does not exist
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[39,0] error: package units.qual does not exist
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[100,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[115,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[130,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[175,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[190,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[298,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[307,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[323,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[331,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[531,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[546,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[561,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[606,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[621,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[729,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[738,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[754,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+/home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[762,45] error: cannot find symbol
+[INFO] 20 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.429 s
+[INFO] Finished at: 2020-08-31T03:58:06-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project jblas: Compilation failure: Compilation failure: 
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[40,12] error: package units does not exist
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[39,0] error: package units.qual does not exist
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[100,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[115,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[130,47] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[175,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[190,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[298,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[307,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[323,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[331,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[531,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[546,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[561,46] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[606,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[621,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[729,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[738,45] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[754,44] error: cannot find symbol
+[ERROR]  class MatrixFunctions
+[ERROR] /home/opprop/units-inference/benchmarks/paper-annotation/jblas/src/main/java/org/jblas/MatrixFunctions.java:[762,45] error: cannot find symbol
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project jblas: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:656)
+    at org.apache.maven.plugin.CompilerMojo.execute (CompilerMojo.java:128)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:956)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:288)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:192)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
